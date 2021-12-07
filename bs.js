@@ -7,6 +7,7 @@ bs.init({
         baseDir: "docs/",
         index: "index.html"
     },
+    port: 8080,
     //Directories to watch for changes
     //The browser refreshes whenever a file in this directory is changed
     files: [

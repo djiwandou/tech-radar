@@ -8,6 +8,10 @@
   "directories": {
     "doc": "docs"
   },
+  "engines": {
+    "node": "10.23.0",
+    "npm": "6.14.8"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "eslint": "^5.7.0",
@@ -17,6 +21,7 @@
     "start": "browser-sync start --port 3000 --no-open --server docs -w",
     "lint": "npm run lint:js && npm run lint:html",
     "lint:js": "eslint docs/*.js",
-    "lint:html": "htmllint docs/*.html"
+    "lint:html": "htmllint docs/*.html",
+    "build": "ng build"
   }
 }
